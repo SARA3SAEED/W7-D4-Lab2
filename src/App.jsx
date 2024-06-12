@@ -25,8 +25,8 @@ function App() {
       setSize('high');
     }
 
-    const minIdeal = (18.5 * heightInMeters * heightInMeters).toFixed(2);
-    const maxIdeal = (24.9 * heightInMeters * heightInMeters).toFixed(2);
+    const minIdeal = (18.5 * heightInMeters * heightInMeters).toFixed(0);
+    const maxIdeal = (24.9 * heightInMeters * heightInMeters).toFixed(0);
     setRange({ min: minIdeal, max: maxIdeal });
    };
 
