@@ -14,7 +14,7 @@ function App() {
 
     const calculateMassive = () => {
     const heightInMeters = height / 100;
-    const massiveValue = (weight / (heightInMeters * heightInMeters)).toFixed(2);
+    const massiveValue = (weight / (heightInMeters * heightInMeters)).toFixed(0);
     setMassive(massiveValue);
 
     if (massiveValue < 18.5) {
